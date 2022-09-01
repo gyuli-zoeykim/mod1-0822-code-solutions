@@ -1,0 +1,20 @@
+button {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+th {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
