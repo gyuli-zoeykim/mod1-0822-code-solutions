@@ -12,6 +12,10 @@
   display: flex;
 }
 
+.column-full {
+  width: 100%;
+}
+
 .column-one-third {
   width: calc(100% / 3);
 }
