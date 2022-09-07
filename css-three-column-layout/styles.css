@@ -1,0 +1,59 @@
+body {
+  font-family: lato, sans-serif;
+  font-weight: lighter;
+  color: white;
+  background-color: rgb(25 150 218);
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-full {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+.icon {
+  border-radius: 50%;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+}
+
+.icon img {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+  padding: 30px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
