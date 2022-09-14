@@ -27,11 +27,15 @@ a:link {
   justify-content: space-between;
 }
 
+.footer a {
+  color: rgb(101 101 101);
+}
+
 .top-logo {
   margin-left: 100px;
 }
 
-.top-logo > img {
+.top-logo > a > img {
   width: 7rem;
 }
 
@@ -39,12 +43,12 @@ a:link {
   margin-right: 100px;
 }
 
-.top-navi > a {
+.top-navi a {
   padding: 1rem;
   color: rgb(179 177 177);
 }
 
-.top-navi > a:last-child {
+.top-navi a:last-child {
   color: white;
   background-color: rgb(6 56 98);
   padding: 10px 15px;
@@ -88,6 +92,7 @@ a:link {
   border: none;
   border-radius: 3px;
   font-size: 1em;
+  cursor: pointer;
 }
 
 .section-two {
@@ -152,10 +157,14 @@ a:link {
   justify-content: space-between;
 }
 
-.bottom-logo > img {
-  width: 7rem;
+.bottom-logo {
   margin-top: 80px;
   margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+.bottom-logo > a > img {
+  width: 7rem;
 }
 
 .section-four p {
@@ -188,18 +197,21 @@ a:link {
 
 .footer {
   background-color: rgb(247 247 247);
-  margin: 0;
   height: 100px;
   display: flex;
   align-items: center;
+  position: relative;
+  padding-left: 100px;
 }
 
-.footer p {
-  color: rgb(101 101 101);
-  margin: 0;
+.section-four .sub-two a {
+  color: white;
+}
+
+.section-four .sub-three a {
+  color: white;
+}
+
+.footer a:last-child {
   padding-left: 30px;
-}
-
-.footer p:first-child {
-  margin-left: 70px;
 }
