@@ -1,0 +1,45 @@
+body {
+  font-family: Barlow, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(238 238 238);
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+h3 {
+  font-size: 0.8em;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  font-size: 0.7em;
+}
+
+.instruction {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.instruction-container {
+  width: 25%;
+  padding: 0 1rem;
+}
+
+.image-ref > img {
+  width: 100%;
+}
+
+.icon > img {
+  width: 25%;
+}
