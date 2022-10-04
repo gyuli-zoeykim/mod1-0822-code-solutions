@@ -8,15 +8,17 @@ console.dir($heading);
 document.querySelector('#explanation');
 var $explaination = document.querySelector('#explanation');
 console.log('$explaination', $explaination);
-console.dir('p#explanation');
+console.dir($explaination);
 
 document.querySelector('.hint');
 var $hint = document.querySelector('.hint');
 console.log('$hint', $hint);
-console.dir('p.hint');
+console.dir($hint);
 
 document.querySelectorAll('p');
-console.log(document.querySelectorAll('p'));
+var $paragraphs = document.querySelectorAll('p');
+console.log('$paragraphs', $paragraphs);
 
 document.querySelectorAll('.example-link');
-console.log(document.querySelectorAll('.example-link'));
+var $links = document.querySelectorAll('.example-link');
+console.log('$links', $links);
