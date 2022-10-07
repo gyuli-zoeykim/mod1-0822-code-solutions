@@ -23,7 +23,7 @@ section {
   color: white;
   background-color: blue;
   transition-property: background-color;
-  transition-delay: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .card-wrapper {
@@ -40,7 +40,7 @@ section {
   cursor: pointer;
   transform: scale(1);
   transition-property: transform;
-  transition-delay: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .card > img {
