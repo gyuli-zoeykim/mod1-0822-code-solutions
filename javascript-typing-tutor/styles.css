@@ -1,0 +1,46 @@
+body {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.type-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+span {
+  font-size: 2rem;
+  color: black;
+}
+
+.grumpyg {
+  border-bottom: solid black;
+}
+
+span.correct {
+  color: rgb(0 219 0);
+}
+
+span.move {
+  border-bottom: solid black;
+}
+
+span.incorrect {
+  color: red;
+  border-bottom: solid red;
+}
+
+.btn {
+  position: absolute;
+  top: 40%;
+  font-size: 1.5rem;
+  background-color: yellow;
+  display: none;
+}
+
+.btn.on {
+  display: inline;
+}
